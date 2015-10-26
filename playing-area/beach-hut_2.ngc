@@ -1,0 +1,1510 @@
+                                        (group{})
+G21                                     (G21 unit mm)
+G90                                     (G90 absolute distance mode)
+G90.1                                   (G90 absolute distance for G2/G3 I,J offsets)
+G64                                     (G64 continuous with optional path tolerance)
+G40                                     (G40 turn cutter compensation off)
+G17                                     (G17 select XY plane)
+                                        (group{})
+                                        (group{})
+                                        (group{})
+                                        (carving_workpiece{material=wood, x=240, y=350, thickness=10})
+                                        (multmatrix{[[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]})
+                                        (group{})
+                                        (group{})
+                                        (group{})
+                                        (carving_path2d{tool_name=T1, x=64.5, y=79, thickness=9})
+M3 S7000                                (M3 turn spindle clockwise with specified speed)
+G0 Z5                                   (G0 rapid motion in Z)
+G0 X64.5 Y79                            (G0 rapid motion in XY)
+G0 Z0.2                                 (G0 rapid motion in Z)
+                                        (carving_slice{z=-2} )
+
+F200                                    (change tool speed)
+G1 Z-2                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X47.5 Y79                            (G1 linear motion in XY)
+                                        (carving_slice{z=-4} )
+
+F200                                    (change tool speed)
+G1 Z-4                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X64.5 Y79                            (G1 linear motion in XY)
+                                        (carving_slice{z=-6} )
+
+F200                                    (change tool speed)
+G1 Z-6                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X47.5 Y79                            (G1 linear motion in XY)
+                                        (carving_slice{z=-8} )
+
+F200                                    (change tool speed)
+G1 Z-8                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X64.5 Y79                            (G1 linear motion in XY)
+                                        (carving_slice{z=-9} )
+
+F200                                    (change tool speed)
+G1 Z-9                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X47.5 Y79                            (G1 linear motion in XY)
+G0 Z5                                   (G0 rapid motion in Z)
+                                        (carving_path2d{tool_name=T1, x=64.5, y=78, thickness=8})
+G0 Z5                                   (G0 rapid motion in Z)
+G0 X64.5 Y78                            (G0 rapid motion in XY)
+G0 Z0.2                                 (G0 rapid motion in Z)
+                                        (carving_slice{z=-2} )
+
+F200                                    (change tool speed)
+G1 Z-2                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X47.5 Y78                            (G1 linear motion in XY)
+                                        (carving_slice{z=-4} )
+
+F200                                    (change tool speed)
+G1 Z-4                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X64.5 Y78                            (G1 linear motion in XY)
+                                        (carving_slice{z=-6} )
+
+F200                                    (change tool speed)
+G1 Z-6                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X47.5 Y78                            (G1 linear motion in XY)
+                                        (carving_slice{z=-8} )
+
+F200                                    (change tool speed)
+G1 Z-8                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X64.5 Y78                            (G1 linear motion in XY)
+G0 Z5                                   (G0 rapid motion in Z)
+                                        (carving_path2d{tool_name=T1, x=64.5, y=77, thickness=7})
+G0 Z5                                   (G0 rapid motion in Z)
+G0 X64.5 Y77                            (G0 rapid motion in XY)
+G0 Z0.2                                 (G0 rapid motion in Z)
+                                        (carving_slice{z=-2} )
+
+F200                                    (change tool speed)
+G1 Z-2                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X47.5 Y77                            (G1 linear motion in XY)
+                                        (carving_slice{z=-4} )
+
+F200                                    (change tool speed)
+G1 Z-4                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X64.5 Y77                            (G1 linear motion in XY)
+                                        (carving_slice{z=-6} )
+
+F200                                    (change tool speed)
+G1 Z-6                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X47.5 Y77                            (G1 linear motion in XY)
+                                        (carving_slice{z=-7} )
+
+F200                                    (change tool speed)
+G1 Z-7                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X64.5 Y77                            (G1 linear motion in XY)
+G0 Z5                                   (G0 rapid motion in Z)
+                                        (carving_path2d{tool_name=T1, x=64.5, y=76, thickness=6})
+G0 Z5                                   (G0 rapid motion in Z)
+G0 X64.5 Y76                            (G0 rapid motion in XY)
+G0 Z0.2                                 (G0 rapid motion in Z)
+                                        (carving_slice{z=-2} )
+
+F200                                    (change tool speed)
+G1 Z-2                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X47.5 Y76                            (G1 linear motion in XY)
+                                        (carving_slice{z=-4} )
+
+F200                                    (change tool speed)
+G1 Z-4                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X64.5 Y76                            (G1 linear motion in XY)
+                                        (carving_slice{z=-6} )
+
+F200                                    (change tool speed)
+G1 Z-6                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X47.5 Y76                            (G1 linear motion in XY)
+G0 Z5                                   (G0 rapid motion in Z)
+                                        (carving_path2d{tool_name=T1, x=64.5, y=75, thickness=5})
+G0 Z5                                   (G0 rapid motion in Z)
+G0 X64.5 Y75                            (G0 rapid motion in XY)
+G0 Z0.2                                 (G0 rapid motion in Z)
+                                        (carving_slice{z=-2} )
+
+F200                                    (change tool speed)
+G1 Z-2                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X47.5 Y75                            (G1 linear motion in XY)
+                                        (carving_slice{z=-4} )
+
+F200                                    (change tool speed)
+G1 Z-4                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X64.5 Y75                            (G1 linear motion in XY)
+                                        (carving_slice{z=-5} )
+
+F200                                    (change tool speed)
+G1 Z-5                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X47.5 Y75                            (G1 linear motion in XY)
+G0 Z5                                   (G0 rapid motion in Z)
+                                        (carving_path2d{tool_name=T1, x=64.5, y=74, thickness=4})
+G0 Z5                                   (G0 rapid motion in Z)
+G0 X64.5 Y74                            (G0 rapid motion in XY)
+G0 Z0.2                                 (G0 rapid motion in Z)
+                                        (carving_slice{z=-2} )
+
+F200                                    (change tool speed)
+G1 Z-2                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X47.5 Y74                            (G1 linear motion in XY)
+                                        (carving_slice{z=-4} )
+
+F200                                    (change tool speed)
+G1 Z-4                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X64.5 Y74                            (G1 linear motion in XY)
+G0 Z5                                   (G0 rapid motion in Z)
+                                        (carving_path2d{tool_name=T1, x=64.5, y=73, thickness=3})
+G0 Z5                                   (G0 rapid motion in Z)
+G0 X64.5 Y73                            (G0 rapid motion in XY)
+G0 Z0.2                                 (G0 rapid motion in Z)
+                                        (carving_slice{z=-2} )
+
+F200                                    (change tool speed)
+G1 Z-2                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X47.5 Y73                            (G1 linear motion in XY)
+                                        (carving_slice{z=-3} )
+
+F200                                    (change tool speed)
+G1 Z-3                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X64.5 Y73                            (G1 linear motion in XY)
+G0 Z5                                   (G0 rapid motion in Z)
+                                        (carving_path2d{tool_name=T1, x=64.5, y=72, thickness=2})
+G0 Z5                                   (G0 rapid motion in Z)
+G0 X64.5 Y72                            (G0 rapid motion in XY)
+G0 Z0.2                                 (G0 rapid motion in Z)
+                                        (carving_slice{z=-2} )
+
+F200                                    (change tool speed)
+G1 Z-2                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X47.5 Y72                            (G1 linear motion in XY)
+G0 Z5                                   (G0 rapid motion in Z)
+                                        (carving_path2d{tool_name=T1, x=64.5, y=71, thickness=1})
+G0 Z5                                   (G0 rapid motion in Z)
+G0 X64.5 Y71                            (G0 rapid motion in XY)
+G0 Z0.2                                 (G0 rapid motion in Z)
+                                        (carving_slice{z=-1} )
+
+F200                                    (change tool speed)
+G1 Z-1                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X47.5 Y71                            (G1 linear motion in XY)
+G0 Z5                                   (G0 rapid motion in Z)
+                                        (carving_path2d{tool_name=T1, x=4.5, y=6, thickness=10})
+G0 Z5                                   (G0 rapid motion in Z)
+G0 X4.5 Y6                              (G0 rapid motion in XY)
+G0 Z0.2                                 (G0 rapid motion in Z)
+                                        (carving_slice{z=-2} )
+
+F200                                    (change tool speed)
+G1 Z-2                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X107.5 Y6                            (G1 linear motion in XY)
+G1 X107.5 Y84                           (G1 linear motion in XY)
+G1 X64.5 Y84                            (G1 linear motion in XY)
+G1 X64.5 Y80                            (G1 linear motion in XY)
+G1 X47.5 Y80                            (G1 linear motion in XY)
+G1 X47.5 Y84                            (G1 linear motion in XY)
+G1 X4.5 Y84                             (G1 linear motion in XY)
+G1 X4.5 Y6                              (G1 linear motion in XY)
+                                        (carving_slice{z=-4} )
+
+F200                                    (change tool speed)
+G1 Z-4                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X4.5 Y84                             (G1 linear motion in XY)
+G1 X47.5 Y84                            (G1 linear motion in XY)
+G1 X47.5 Y80                            (G1 linear motion in XY)
+G1 X64.5 Y80                            (G1 linear motion in XY)
+G1 X64.5 Y84                            (G1 linear motion in XY)
+G1 X107.5 Y84                           (G1 linear motion in XY)
+G1 X107.5 Y6                            (G1 linear motion in XY)
+G1 X4.5 Y6                              (G1 linear motion in XY)
+                                        (carving_slice{z=-6} )
+
+F200                                    (change tool speed)
+G1 Z-6                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X107.5 Y6                            (G1 linear motion in XY)
+G1 X107.5 Y84                           (G1 linear motion in XY)
+G1 X64.5 Y84                            (G1 linear motion in XY)
+G1 X64.5 Y80                            (G1 linear motion in XY)
+G1 X47.5 Y80                            (G1 linear motion in XY)
+G1 X47.5 Y84                            (G1 linear motion in XY)
+G1 X4.5 Y84                             (G1 linear motion in XY)
+G1 X4.5 Y6                              (G1 linear motion in XY)
+                                        (carving_slice{z=-8} )
+
+F200                                    (change tool speed)
+G1 Z-8                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X4.5 Y84                             (G1 linear motion in XY)
+G1 X47.5 Y84                            (G1 linear motion in XY)
+G1 X47.5 Y80                            (G1 linear motion in XY)
+G1 X64.5 Y80                            (G1 linear motion in XY)
+G1 X64.5 Y84                            (G1 linear motion in XY)
+G1 X107.5 Y84                           (G1 linear motion in XY)
+G1 X107.5 Y6                            (G1 linear motion in XY)
+G1 X4.5 Y6                              (G1 linear motion in XY)
+                                        (carving_slice{z=-10} )
+
+F200                                    (change tool speed)
+G1 Z-10                                 (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X107.5 Y6                            (G1 linear motion in XY)
+G1 X107.5 Y84                           (G1 linear motion in XY)
+G1 X64.5 Y84                            (G1 linear motion in XY)
+G1 X64.5 Y80                            (G1 linear motion in XY)
+G1 X47.5 Y80                            (G1 linear motion in XY)
+G1 X47.5 Y84                            (G1 linear motion in XY)
+G1 X4.5 Y84                             (G1 linear motion in XY)
+G1 X4.5 Y6                              (G1 linear motion in XY)
+G0 Z5                                   (G0 rapid motion in Z)
+                                        (multmatrix{[[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]})
+                                        (group{})
+                                        (group{})
+                                        (group{})
+                                        (carving_path2d{tool_name=T1, x=178.5, y=79, thickness=9})
+G0 Z5                                   (G0 rapid motion in Z)
+G0 X178.5 Y79                           (G0 rapid motion in XY)
+G0 Z0.2                                 (G0 rapid motion in Z)
+                                        (carving_slice{z=-2} )
+
+F200                                    (change tool speed)
+G1 Z-2                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X161.5 Y79                           (G1 linear motion in XY)
+                                        (carving_slice{z=-4} )
+
+F200                                    (change tool speed)
+G1 Z-4                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X178.5 Y79                           (G1 linear motion in XY)
+                                        (carving_slice{z=-6} )
+
+F200                                    (change tool speed)
+G1 Z-6                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X161.5 Y79                           (G1 linear motion in XY)
+                                        (carving_slice{z=-8} )
+
+F200                                    (change tool speed)
+G1 Z-8                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X178.5 Y79                           (G1 linear motion in XY)
+                                        (carving_slice{z=-9} )
+
+F200                                    (change tool speed)
+G1 Z-9                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X161.5 Y79                           (G1 linear motion in XY)
+G0 Z5                                   (G0 rapid motion in Z)
+                                        (carving_path2d{tool_name=T1, x=178.5, y=78, thickness=8})
+G0 Z5                                   (G0 rapid motion in Z)
+G0 X178.5 Y78                           (G0 rapid motion in XY)
+G0 Z0.2                                 (G0 rapid motion in Z)
+                                        (carving_slice{z=-2} )
+
+F200                                    (change tool speed)
+G1 Z-2                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X161.5 Y78                           (G1 linear motion in XY)
+                                        (carving_slice{z=-4} )
+
+F200                                    (change tool speed)
+G1 Z-4                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X178.5 Y78                           (G1 linear motion in XY)
+                                        (carving_slice{z=-6} )
+
+F200                                    (change tool speed)
+G1 Z-6                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X161.5 Y78                           (G1 linear motion in XY)
+                                        (carving_slice{z=-8} )
+
+F200                                    (change tool speed)
+G1 Z-8                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X178.5 Y78                           (G1 linear motion in XY)
+G0 Z5                                   (G0 rapid motion in Z)
+                                        (carving_path2d{tool_name=T1, x=178.5, y=77, thickness=7})
+G0 Z5                                   (G0 rapid motion in Z)
+G0 X178.5 Y77                           (G0 rapid motion in XY)
+G0 Z0.2                                 (G0 rapid motion in Z)
+                                        (carving_slice{z=-2} )
+
+F200                                    (change tool speed)
+G1 Z-2                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X161.5 Y77                           (G1 linear motion in XY)
+                                        (carving_slice{z=-4} )
+
+F200                                    (change tool speed)
+G1 Z-4                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X178.5 Y77                           (G1 linear motion in XY)
+                                        (carving_slice{z=-6} )
+
+F200                                    (change tool speed)
+G1 Z-6                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X161.5 Y77                           (G1 linear motion in XY)
+                                        (carving_slice{z=-7} )
+
+F200                                    (change tool speed)
+G1 Z-7                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X178.5 Y77                           (G1 linear motion in XY)
+G0 Z5                                   (G0 rapid motion in Z)
+                                        (carving_path2d{tool_name=T1, x=178.5, y=76, thickness=6})
+G0 Z5                                   (G0 rapid motion in Z)
+G0 X178.5 Y76                           (G0 rapid motion in XY)
+G0 Z0.2                                 (G0 rapid motion in Z)
+                                        (carving_slice{z=-2} )
+
+F200                                    (change tool speed)
+G1 Z-2                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X161.5 Y76                           (G1 linear motion in XY)
+                                        (carving_slice{z=-4} )
+
+F200                                    (change tool speed)
+G1 Z-4                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X178.5 Y76                           (G1 linear motion in XY)
+                                        (carving_slice{z=-6} )
+
+F200                                    (change tool speed)
+G1 Z-6                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X161.5 Y76                           (G1 linear motion in XY)
+G0 Z5                                   (G0 rapid motion in Z)
+                                        (carving_path2d{tool_name=T1, x=178.5, y=75, thickness=5})
+G0 Z5                                   (G0 rapid motion in Z)
+G0 X178.5 Y75                           (G0 rapid motion in XY)
+G0 Z0.2                                 (G0 rapid motion in Z)
+                                        (carving_slice{z=-2} )
+
+F200                                    (change tool speed)
+G1 Z-2                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X161.5 Y75                           (G1 linear motion in XY)
+                                        (carving_slice{z=-4} )
+
+F200                                    (change tool speed)
+G1 Z-4                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X178.5 Y75                           (G1 linear motion in XY)
+                                        (carving_slice{z=-5} )
+
+F200                                    (change tool speed)
+G1 Z-5                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X161.5 Y75                           (G1 linear motion in XY)
+G0 Z5                                   (G0 rapid motion in Z)
+                                        (carving_path2d{tool_name=T1, x=178.5, y=74, thickness=4})
+G0 Z5                                   (G0 rapid motion in Z)
+G0 X178.5 Y74                           (G0 rapid motion in XY)
+G0 Z0.2                                 (G0 rapid motion in Z)
+                                        (carving_slice{z=-2} )
+
+F200                                    (change tool speed)
+G1 Z-2                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X161.5 Y74                           (G1 linear motion in XY)
+                                        (carving_slice{z=-4} )
+
+F200                                    (change tool speed)
+G1 Z-4                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X178.5 Y74                           (G1 linear motion in XY)
+G0 Z5                                   (G0 rapid motion in Z)
+                                        (carving_path2d{tool_name=T1, x=178.5, y=73, thickness=3})
+G0 Z5                                   (G0 rapid motion in Z)
+G0 X178.5 Y73                           (G0 rapid motion in XY)
+G0 Z0.2                                 (G0 rapid motion in Z)
+                                        (carving_slice{z=-2} )
+
+F200                                    (change tool speed)
+G1 Z-2                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X161.5 Y73                           (G1 linear motion in XY)
+                                        (carving_slice{z=-3} )
+
+F200                                    (change tool speed)
+G1 Z-3                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X178.5 Y73                           (G1 linear motion in XY)
+G0 Z5                                   (G0 rapid motion in Z)
+                                        (carving_path2d{tool_name=T1, x=178.5, y=72, thickness=2})
+G0 Z5                                   (G0 rapid motion in Z)
+G0 X178.5 Y72                           (G0 rapid motion in XY)
+G0 Z0.2                                 (G0 rapid motion in Z)
+                                        (carving_slice{z=-2} )
+
+F200                                    (change tool speed)
+G1 Z-2                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X161.5 Y72                           (G1 linear motion in XY)
+G0 Z5                                   (G0 rapid motion in Z)
+                                        (carving_path2d{tool_name=T1, x=178.5, y=71, thickness=1})
+G0 Z5                                   (G0 rapid motion in Z)
+G0 X178.5 Y71                           (G0 rapid motion in XY)
+G0 Z0.2                                 (G0 rapid motion in Z)
+                                        (carving_slice{z=-1} )
+
+F200                                    (change tool speed)
+G1 Z-1                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X161.5 Y71                           (G1 linear motion in XY)
+G0 Z5                                   (G0 rapid motion in Z)
+                                        (carving_path2d{tool_name=T1, x=118.5, y=6, thickness=10})
+G0 Z5                                   (G0 rapid motion in Z)
+G0 X118.5 Y6                            (G0 rapid motion in XY)
+G0 Z0.2                                 (G0 rapid motion in Z)
+                                        (carving_slice{z=-2} )
+
+F200                                    (change tool speed)
+G1 Z-2                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X221.5 Y6                            (G1 linear motion in XY)
+G1 X221.5 Y94                           (G1 linear motion in XY)
+G1 X178.5 Y94                           (G1 linear motion in XY)
+G1 X178.5 Y80                           (G1 linear motion in XY)
+G1 X161.5 Y80                           (G1 linear motion in XY)
+G1 X161.5 Y94                           (G1 linear motion in XY)
+G1 X118.5 Y94                           (G1 linear motion in XY)
+G1 X118.5 Y6                            (G1 linear motion in XY)
+                                        (carving_slice{z=-4} )
+
+F200                                    (change tool speed)
+G1 Z-4                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X118.5 Y94                           (G1 linear motion in XY)
+G1 X161.5 Y94                           (G1 linear motion in XY)
+G1 X161.5 Y80                           (G1 linear motion in XY)
+G1 X178.5 Y80                           (G1 linear motion in XY)
+G1 X178.5 Y94                           (G1 linear motion in XY)
+G1 X221.5 Y94                           (G1 linear motion in XY)
+G1 X221.5 Y6                            (G1 linear motion in XY)
+G1 X118.5 Y6                            (G1 linear motion in XY)
+                                        (carving_slice{z=-6} )
+
+F200                                    (change tool speed)
+G1 Z-6                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X221.5 Y6                            (G1 linear motion in XY)
+G1 X221.5 Y94                           (G1 linear motion in XY)
+G1 X178.5 Y94                           (G1 linear motion in XY)
+G1 X178.5 Y80                           (G1 linear motion in XY)
+G1 X161.5 Y80                           (G1 linear motion in XY)
+G1 X161.5 Y94                           (G1 linear motion in XY)
+G1 X118.5 Y94                           (G1 linear motion in XY)
+G1 X118.5 Y6                            (G1 linear motion in XY)
+                                        (carving_slice{z=-8} )
+
+F200                                    (change tool speed)
+G1 Z-8                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X118.5 Y94                           (G1 linear motion in XY)
+G1 X161.5 Y94                           (G1 linear motion in XY)
+G1 X161.5 Y80                           (G1 linear motion in XY)
+G1 X178.5 Y80                           (G1 linear motion in XY)
+G1 X178.5 Y94                           (G1 linear motion in XY)
+G1 X221.5 Y94                           (G1 linear motion in XY)
+G1 X221.5 Y6                            (G1 linear motion in XY)
+G1 X118.5 Y6                            (G1 linear motion in XY)
+                                        (carving_slice{z=-10} )
+
+F200                                    (change tool speed)
+G1 Z-10                                 (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X221.5 Y6                            (G1 linear motion in XY)
+G1 X221.5 Y94                           (G1 linear motion in XY)
+G1 X178.5 Y94                           (G1 linear motion in XY)
+G1 X178.5 Y80                           (G1 linear motion in XY)
+G1 X161.5 Y80                           (G1 linear motion in XY)
+G1 X161.5 Y94                           (G1 linear motion in XY)
+G1 X118.5 Y94                           (G1 linear motion in XY)
+G1 X118.5 Y6                            (G1 linear motion in XY)
+G0 Z5                                   (G0 rapid motion in Z)
+                                        (multmatrix{[[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]})
+                                        (group{})
+                                        (group{})
+                                        (carving_path2d{tool_name=T1, x=14.5, y=96, thickness=10})
+G0 Z5                                   (G0 rapid motion in Z)
+G0 X14.5 Y96                            (G0 rapid motion in XY)
+G0 Z0.2                                 (G0 rapid motion in Z)
+                                        (carving_slice{z=-2} )
+
+F200                                    (change tool speed)
+G1 Z-2                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X97.5 Y96                            (G1 linear motion in XY)
+                                        (group{})
+G1 X97.5 Y192.5                         (G1 linear motion in XY)
+
+F300                                    (change tool speed)
+G3 X97.0607 Y193.561 I96 J192.5 P1      (G3 arc ccw in XY)
+
+F400                                    (change tool speed)
+G1 X57.0607 Y233.561                    (G1 linear motion in XY)
+
+F300                                    (change tool speed)
+G3 X54.9393 Y233.561 I56 J232.5 P1      (G3 arc ccw in XY)
+
+F400                                    (change tool speed)
+G1 X14.9393 Y193.561                    (G1 linear motion in XY)
+
+F300                                    (change tool speed)
+G3 X14.5 Y192.5 I16 J192.5 P1           (G3 arc ccw in XY)
+
+F400                                    (change tool speed)
+G1 X14.5 Y194                           (G1 linear motion in XY)
+G1 X14.5 Y96                            (G1 linear motion in XY)
+                                        (carving_slice{z=-4} )
+
+F200                                    (change tool speed)
+G1 Z-4                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X14.5 Y194                           (G1 linear motion in XY)
+                                        (group{})
+G1 X14.5 Y192.5                         (G1 linear motion in XY)
+
+F300                                    (change tool speed)
+G2 X14.9393 Y193.561 I16 J192.5 P1      (G2 arc motion in XY)
+
+F400                                    (change tool speed)
+G1 X54.9393 Y233.561                    (G1 linear motion in XY)
+
+F300                                    (change tool speed)
+G2 X57.0607 Y233.561 I56 J232.5 P1      (G2 arc motion in XY)
+
+F400                                    (change tool speed)
+G1 X97.0607 Y193.561                    (G1 linear motion in XY)
+
+F300                                    (change tool speed)
+G2 X97.5 Y192.5 I96 J192.5 P1           (G2 arc motion in XY)
+
+F400                                    (change tool speed)
+G1 X97.5 Y96                            (G1 linear motion in XY)
+G1 X14.5 Y96                            (G1 linear motion in XY)
+                                        (carving_slice{z=-6} )
+
+F200                                    (change tool speed)
+G1 Z-6                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X97.5 Y96                            (G1 linear motion in XY)
+                                        (group{})
+G1 X97.5 Y192.5                         (G1 linear motion in XY)
+
+F300                                    (change tool speed)
+G3 X97.0607 Y193.561 I96 J192.5 P1      (G3 arc ccw in XY)
+
+F400                                    (change tool speed)
+G1 X57.0607 Y233.561                    (G1 linear motion in XY)
+
+F300                                    (change tool speed)
+G3 X54.9393 Y233.561 I56 J232.5 P1      (G3 arc ccw in XY)
+
+F400                                    (change tool speed)
+G1 X14.9393 Y193.561                    (G1 linear motion in XY)
+
+F300                                    (change tool speed)
+G3 X14.5 Y192.5 I16 J192.5 P1           (G3 arc ccw in XY)
+
+F400                                    (change tool speed)
+G1 X14.5 Y194                           (G1 linear motion in XY)
+G1 X14.5 Y96                            (G1 linear motion in XY)
+                                        (carving_slice{z=-8} )
+
+F200                                    (change tool speed)
+G1 Z-8                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X14.5 Y194                           (G1 linear motion in XY)
+                                        (group{})
+G1 X14.5 Y192.5                         (G1 linear motion in XY)
+
+F300                                    (change tool speed)
+G2 X14.9393 Y193.561 I16 J192.5 P1      (G2 arc motion in XY)
+
+F400                                    (change tool speed)
+G1 X54.9393 Y233.561                    (G1 linear motion in XY)
+
+F300                                    (change tool speed)
+G2 X57.0607 Y233.561 I56 J232.5 P1      (G2 arc motion in XY)
+
+F400                                    (change tool speed)
+G1 X97.0607 Y193.561                    (G1 linear motion in XY)
+
+F300                                    (change tool speed)
+G2 X97.5 Y192.5 I96 J192.5 P1           (G2 arc motion in XY)
+
+F400                                    (change tool speed)
+G1 X97.5 Y96                            (G1 linear motion in XY)
+G1 X14.5 Y96                            (G1 linear motion in XY)
+                                        (carving_slice{z=-10} )
+
+F200                                    (change tool speed)
+G1 Z-10                                 (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X97.5 Y96                            (G1 linear motion in XY)
+                                        (group{})
+G1 X97.5 Y192.5                         (G1 linear motion in XY)
+
+F300                                    (change tool speed)
+G3 X97.0607 Y193.561 I96 J192.5 P1      (G3 arc ccw in XY)
+
+F400                                    (change tool speed)
+G1 X57.0607 Y233.561                    (G1 linear motion in XY)
+
+F300                                    (change tool speed)
+G3 X54.9393 Y233.561 I56 J232.5 P1      (G3 arc ccw in XY)
+
+F400                                    (change tool speed)
+G1 X14.9393 Y193.561                    (G1 linear motion in XY)
+
+F300                                    (change tool speed)
+G3 X14.5 Y192.5 I16 J192.5 P1           (G3 arc ccw in XY)
+
+F400                                    (change tool speed)
+G1 X14.5 Y194                           (G1 linear motion in XY)
+G1 X14.5 Y96                            (G1 linear motion in XY)
+G0 Z5                                   (G0 rapid motion in Z)
+                                        (multmatrix{[[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]})
+                                        (multmatrix{[[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]})
+                                        (multmatrix{[[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]})
+                                        (multmatrix{[[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]})
+                                        (group{})
+                                        (group{})
+                                        (carving_path2d{tool_name=T1, x=211.5, y=239, thickness=10})
+G0 Z5                                   (G0 rapid motion in Z)
+G0 X211.5 Y239                          (G0 rapid motion in XY)
+G0 Z0.2                                 (G0 rapid motion in Z)
+                                        (carving_slice{z=-2} )
+
+F200                                    (change tool speed)
+G1 Z-2                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X128.5 Y239                          (G1 linear motion in XY)
+                                        (group{})
+G1 X128.5 Y142.5                        (G1 linear motion in XY)
+
+F300                                    (change tool speed)
+G3 X128.939 Y141.439 I130 J142.5 P1     (G3 arc ccw in XY)
+
+F400                                    (change tool speed)
+G1 X168.939 Y101.439                    (G1 linear motion in XY)
+
+F300                                    (change tool speed)
+G3 X171.061 Y101.439 I170 J102.5 P1     (G3 arc ccw in XY)
+
+F400                                    (change tool speed)
+G1 X211.061 Y141.439                    (G1 linear motion in XY)
+
+F300                                    (change tool speed)
+G3 X211.5 Y142.5 I210 J142.5 P1         (G3 arc ccw in XY)
+
+F400                                    (change tool speed)
+G1 X211.5 Y141                          (G1 linear motion in XY)
+G1 X211.5 Y239                          (G1 linear motion in XY)
+                                        (carving_slice{z=-4} )
+
+F200                                    (change tool speed)
+G1 Z-4                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X211.5 Y141                          (G1 linear motion in XY)
+                                        (group{})
+G1 X211.5 Y142.5                        (G1 linear motion in XY)
+
+F300                                    (change tool speed)
+G2 X211.061 Y141.439 I210 J142.5 P1     (G2 arc motion in XY)
+
+F400                                    (change tool speed)
+G1 X171.061 Y101.439                    (G1 linear motion in XY)
+
+F300                                    (change tool speed)
+G2 X168.939 Y101.439 I170 J102.5 P1     (G2 arc motion in XY)
+
+F400                                    (change tool speed)
+G1 X128.939 Y141.439                    (G1 linear motion in XY)
+
+F300                                    (change tool speed)
+G2 X128.5 Y142.5 I130 J142.5 P1         (G2 arc motion in XY)
+
+F400                                    (change tool speed)
+G1 X128.5 Y239                          (G1 linear motion in XY)
+G1 X211.5 Y239                          (G1 linear motion in XY)
+                                        (carving_slice{z=-6} )
+
+F200                                    (change tool speed)
+G1 Z-6                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X128.5 Y239                          (G1 linear motion in XY)
+                                        (group{})
+G1 X128.5 Y142.5                        (G1 linear motion in XY)
+
+F300                                    (change tool speed)
+G3 X128.939 Y141.439 I130 J142.5 P1     (G3 arc ccw in XY)
+
+F400                                    (change tool speed)
+G1 X168.939 Y101.439                    (G1 linear motion in XY)
+
+F300                                    (change tool speed)
+G3 X171.061 Y101.439 I170 J102.5 P1     (G3 arc ccw in XY)
+
+F400                                    (change tool speed)
+G1 X211.061 Y141.439                    (G1 linear motion in XY)
+
+F300                                    (change tool speed)
+G3 X211.5 Y142.5 I210 J142.5 P1         (G3 arc ccw in XY)
+
+F400                                    (change tool speed)
+G1 X211.5 Y141                          (G1 linear motion in XY)
+G1 X211.5 Y239                          (G1 linear motion in XY)
+                                        (carving_slice{z=-8} )
+
+F200                                    (change tool speed)
+G1 Z-8                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X211.5 Y141                          (G1 linear motion in XY)
+                                        (group{})
+G1 X211.5 Y142.5                        (G1 linear motion in XY)
+
+F300                                    (change tool speed)
+G2 X211.061 Y141.439 I210 J142.5 P1     (G2 arc motion in XY)
+
+F400                                    (change tool speed)
+G1 X171.061 Y101.439                    (G1 linear motion in XY)
+
+F300                                    (change tool speed)
+G2 X168.939 Y101.439 I170 J102.5 P1     (G2 arc motion in XY)
+
+F400                                    (change tool speed)
+G1 X128.939 Y141.439                    (G1 linear motion in XY)
+
+F300                                    (change tool speed)
+G2 X128.5 Y142.5 I130 J142.5 P1         (G2 arc motion in XY)
+
+F400                                    (change tool speed)
+G1 X128.5 Y239                          (G1 linear motion in XY)
+G1 X211.5 Y239                          (G1 linear motion in XY)
+                                        (carving_slice{z=-10} )
+
+F200                                    (change tool speed)
+G1 Z-10                                 (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X128.5 Y239                          (G1 linear motion in XY)
+                                        (group{})
+G1 X128.5 Y142.5                        (G1 linear motion in XY)
+
+F300                                    (change tool speed)
+G3 X128.939 Y141.439 I130 J142.5 P1     (G3 arc ccw in XY)
+
+F400                                    (change tool speed)
+G1 X168.939 Y101.439                    (G1 linear motion in XY)
+
+F300                                    (change tool speed)
+G3 X171.061 Y101.439 I170 J102.5 P1     (G3 arc ccw in XY)
+
+F400                                    (change tool speed)
+G1 X211.061 Y141.439                    (G1 linear motion in XY)
+
+F300                                    (change tool speed)
+G3 X211.5 Y142.5 I210 J142.5 P1         (G3 arc ccw in XY)
+
+F400                                    (change tool speed)
+G1 X211.5 Y141                          (G1 linear motion in XY)
+G1 X211.5 Y239                          (G1 linear motion in XY)
+G0 Z5                                   (G0 rapid motion in Z)
+                                        (multmatrix{[[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]})
+                                        (group{})
+                                        (group{})
+                                        (group{})
+                                        (carving_path2d{tool_name=T1, x=47.5, y=256, thickness=9})
+G0 Z5                                   (G0 rapid motion in Z)
+G0 X47.5 Y256                           (G0 rapid motion in XY)
+G0 Z0.2                                 (G0 rapid motion in Z)
+                                        (carving_slice{z=-2} )
+
+F200                                    (change tool speed)
+G1 Z-2                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X64.5 Y256                           (G1 linear motion in XY)
+                                        (carving_slice{z=-4} )
+
+F200                                    (change tool speed)
+G1 Z-4                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X47.5 Y256                           (G1 linear motion in XY)
+                                        (carving_slice{z=-6} )
+
+F200                                    (change tool speed)
+G1 Z-6                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X64.5 Y256                           (G1 linear motion in XY)
+                                        (carving_slice{z=-8} )
+
+F200                                    (change tool speed)
+G1 Z-8                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X47.5 Y256                           (G1 linear motion in XY)
+                                        (carving_slice{z=-9} )
+
+F200                                    (change tool speed)
+G1 Z-9                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X64.5 Y256                           (G1 linear motion in XY)
+G0 Z5                                   (G0 rapid motion in Z)
+                                        (carving_path2d{tool_name=T1, x=47.5, y=257, thickness=8})
+G0 Z5                                   (G0 rapid motion in Z)
+G0 X47.5 Y257                           (G0 rapid motion in XY)
+G0 Z0.2                                 (G0 rapid motion in Z)
+                                        (carving_slice{z=-2} )
+
+F200                                    (change tool speed)
+G1 Z-2                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X64.5 Y257                           (G1 linear motion in XY)
+                                        (carving_slice{z=-4} )
+
+F200                                    (change tool speed)
+G1 Z-4                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X47.5 Y257                           (G1 linear motion in XY)
+                                        (carving_slice{z=-6} )
+
+F200                                    (change tool speed)
+G1 Z-6                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X64.5 Y257                           (G1 linear motion in XY)
+                                        (carving_slice{z=-8} )
+
+F200                                    (change tool speed)
+G1 Z-8                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X47.5 Y257                           (G1 linear motion in XY)
+G0 Z5                                   (G0 rapid motion in Z)
+                                        (carving_path2d{tool_name=T1, x=47.5, y=258, thickness=7})
+G0 Z5                                   (G0 rapid motion in Z)
+G0 X47.5 Y258                           (G0 rapid motion in XY)
+G0 Z0.2                                 (G0 rapid motion in Z)
+                                        (carving_slice{z=-2} )
+
+F200                                    (change tool speed)
+G1 Z-2                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X64.5 Y258                           (G1 linear motion in XY)
+                                        (carving_slice{z=-4} )
+
+F200                                    (change tool speed)
+G1 Z-4                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X47.5 Y258                           (G1 linear motion in XY)
+                                        (carving_slice{z=-6} )
+
+F200                                    (change tool speed)
+G1 Z-6                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X64.5 Y258                           (G1 linear motion in XY)
+                                        (carving_slice{z=-7} )
+
+F200                                    (change tool speed)
+G1 Z-7                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X47.5 Y258                           (G1 linear motion in XY)
+G0 Z5                                   (G0 rapid motion in Z)
+                                        (carving_path2d{tool_name=T1, x=47.5, y=259, thickness=6})
+G0 Z5                                   (G0 rapid motion in Z)
+G0 X47.5 Y259                           (G0 rapid motion in XY)
+G0 Z0.2                                 (G0 rapid motion in Z)
+                                        (carving_slice{z=-2} )
+
+F200                                    (change tool speed)
+G1 Z-2                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X64.5 Y259                           (G1 linear motion in XY)
+                                        (carving_slice{z=-4} )
+
+F200                                    (change tool speed)
+G1 Z-4                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X47.5 Y259                           (G1 linear motion in XY)
+                                        (carving_slice{z=-6} )
+
+F200                                    (change tool speed)
+G1 Z-6                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X64.5 Y259                           (G1 linear motion in XY)
+G0 Z5                                   (G0 rapid motion in Z)
+                                        (carving_path2d{tool_name=T1, x=47.5, y=260, thickness=5})
+G0 Z5                                   (G0 rapid motion in Z)
+G0 X47.5 Y260                           (G0 rapid motion in XY)
+G0 Z0.2                                 (G0 rapid motion in Z)
+                                        (carving_slice{z=-2} )
+
+F200                                    (change tool speed)
+G1 Z-2                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X64.5 Y260                           (G1 linear motion in XY)
+                                        (carving_slice{z=-4} )
+
+F200                                    (change tool speed)
+G1 Z-4                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X47.5 Y260                           (G1 linear motion in XY)
+                                        (carving_slice{z=-5} )
+
+F200                                    (change tool speed)
+G1 Z-5                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X64.5 Y260                           (G1 linear motion in XY)
+G0 Z5                                   (G0 rapid motion in Z)
+                                        (carving_path2d{tool_name=T1, x=47.5, y=261, thickness=4})
+G0 Z5                                   (G0 rapid motion in Z)
+G0 X47.5 Y261                           (G0 rapid motion in XY)
+G0 Z0.2                                 (G0 rapid motion in Z)
+                                        (carving_slice{z=-2} )
+
+F200                                    (change tool speed)
+G1 Z-2                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X64.5 Y261                           (G1 linear motion in XY)
+                                        (carving_slice{z=-4} )
+
+F200                                    (change tool speed)
+G1 Z-4                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X47.5 Y261                           (G1 linear motion in XY)
+G0 Z5                                   (G0 rapid motion in Z)
+                                        (carving_path2d{tool_name=T1, x=47.5, y=262, thickness=3})
+G0 Z5                                   (G0 rapid motion in Z)
+G0 X47.5 Y262                           (G0 rapid motion in XY)
+G0 Z0.2                                 (G0 rapid motion in Z)
+                                        (carving_slice{z=-2} )
+
+F200                                    (change tool speed)
+G1 Z-2                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X64.5 Y262                           (G1 linear motion in XY)
+                                        (carving_slice{z=-3} )
+
+F200                                    (change tool speed)
+G1 Z-3                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X47.5 Y262                           (G1 linear motion in XY)
+G0 Z5                                   (G0 rapid motion in Z)
+                                        (carving_path2d{tool_name=T1, x=47.5, y=263, thickness=2})
+G0 Z5                                   (G0 rapid motion in Z)
+G0 X47.5 Y263                           (G0 rapid motion in XY)
+G0 Z0.2                                 (G0 rapid motion in Z)
+                                        (carving_slice{z=-2} )
+
+F200                                    (change tool speed)
+G1 Z-2                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X64.5 Y263                           (G1 linear motion in XY)
+G0 Z5                                   (G0 rapid motion in Z)
+                                        (carving_path2d{tool_name=T1, x=47.5, y=264, thickness=1})
+G0 Z5                                   (G0 rapid motion in Z)
+G0 X47.5 Y264                           (G0 rapid motion in XY)
+G0 Z0.2                                 (G0 rapid motion in Z)
+                                        (carving_slice{z=-1} )
+
+F200                                    (change tool speed)
+G1 Z-1                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X64.5 Y264                           (G1 linear motion in XY)
+G0 Z5                                   (G0 rapid motion in Z)
+                                        (carving_path2d{tool_name=T1, x=107.5, y=329, thickness=10})
+G0 Z5                                   (G0 rapid motion in Z)
+G0 X107.5 Y329                          (G0 rapid motion in XY)
+G0 Z0.2                                 (G0 rapid motion in Z)
+                                        (carving_slice{z=-2} )
+
+F200                                    (change tool speed)
+G1 Z-2                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X4.5 Y329                            (G1 linear motion in XY)
+G1 X4.5 Y241                            (G1 linear motion in XY)
+G1 X47.5 Y241                           (G1 linear motion in XY)
+G1 X47.5 Y255                           (G1 linear motion in XY)
+G1 X64.5 Y255                           (G1 linear motion in XY)
+G1 X64.5 Y241                           (G1 linear motion in XY)
+G1 X107.5 Y241                          (G1 linear motion in XY)
+G1 X107.5 Y329                          (G1 linear motion in XY)
+                                        (carving_slice{z=-4} )
+
+F200                                    (change tool speed)
+G1 Z-4                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X107.5 Y241                          (G1 linear motion in XY)
+G1 X64.5 Y241                           (G1 linear motion in XY)
+G1 X64.5 Y255                           (G1 linear motion in XY)
+G1 X47.5 Y255                           (G1 linear motion in XY)
+G1 X47.5 Y241                           (G1 linear motion in XY)
+G1 X4.5 Y241                            (G1 linear motion in XY)
+G1 X4.5 Y329                            (G1 linear motion in XY)
+G1 X107.5 Y329                          (G1 linear motion in XY)
+                                        (carving_slice{z=-6} )
+
+F200                                    (change tool speed)
+G1 Z-6                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X4.5 Y329                            (G1 linear motion in XY)
+G1 X4.5 Y241                            (G1 linear motion in XY)
+G1 X47.5 Y241                           (G1 linear motion in XY)
+G1 X47.5 Y255                           (G1 linear motion in XY)
+G1 X64.5 Y255                           (G1 linear motion in XY)
+G1 X64.5 Y241                           (G1 linear motion in XY)
+G1 X107.5 Y241                          (G1 linear motion in XY)
+G1 X107.5 Y329                          (G1 linear motion in XY)
+                                        (carving_slice{z=-8} )
+
+F200                                    (change tool speed)
+G1 Z-8                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X107.5 Y241                          (G1 linear motion in XY)
+G1 X64.5 Y241                           (G1 linear motion in XY)
+G1 X64.5 Y255                           (G1 linear motion in XY)
+G1 X47.5 Y255                           (G1 linear motion in XY)
+G1 X47.5 Y241                           (G1 linear motion in XY)
+G1 X4.5 Y241                            (G1 linear motion in XY)
+G1 X4.5 Y329                            (G1 linear motion in XY)
+G1 X107.5 Y329                          (G1 linear motion in XY)
+                                        (carving_slice{z=-10} )
+
+F200                                    (change tool speed)
+G1 Z-10                                 (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X4.5 Y329                            (G1 linear motion in XY)
+G1 X4.5 Y241                            (G1 linear motion in XY)
+G1 X47.5 Y241                           (G1 linear motion in XY)
+G1 X47.5 Y255                           (G1 linear motion in XY)
+G1 X64.5 Y255                           (G1 linear motion in XY)
+G1 X64.5 Y241                           (G1 linear motion in XY)
+G1 X107.5 Y241                          (G1 linear motion in XY)
+G1 X107.5 Y329                          (G1 linear motion in XY)
+G0 Z5                                   (G0 rapid motion in Z)
+                                        (multmatrix{[[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]})
+                                        (group{})
+                                        (group{})
+                                        (group{})
+                                        (carving_path2d{tool_name=T1, x=161.5, y=256, thickness=9})
+G0 Z5                                   (G0 rapid motion in Z)
+G0 X161.5 Y256                          (G0 rapid motion in XY)
+G0 Z0.2                                 (G0 rapid motion in Z)
+                                        (carving_slice{z=-2} )
+
+F200                                    (change tool speed)
+G1 Z-2                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X178.5 Y256                          (G1 linear motion in XY)
+                                        (carving_slice{z=-4} )
+
+F200                                    (change tool speed)
+G1 Z-4                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X161.5 Y256                          (G1 linear motion in XY)
+                                        (carving_slice{z=-6} )
+
+F200                                    (change tool speed)
+G1 Z-6                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X178.5 Y256                          (G1 linear motion in XY)
+                                        (carving_slice{z=-8} )
+
+F200                                    (change tool speed)
+G1 Z-8                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X161.5 Y256                          (G1 linear motion in XY)
+                                        (carving_slice{z=-9} )
+
+F200                                    (change tool speed)
+G1 Z-9                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X178.5 Y256                          (G1 linear motion in XY)
+G0 Z5                                   (G0 rapid motion in Z)
+                                        (carving_path2d{tool_name=T1, x=161.5, y=257, thickness=8})
+G0 Z5                                   (G0 rapid motion in Z)
+G0 X161.5 Y257                          (G0 rapid motion in XY)
+G0 Z0.2                                 (G0 rapid motion in Z)
+                                        (carving_slice{z=-2} )
+
+F200                                    (change tool speed)
+G1 Z-2                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X178.5 Y257                          (G1 linear motion in XY)
+                                        (carving_slice{z=-4} )
+
+F200                                    (change tool speed)
+G1 Z-4                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X161.5 Y257                          (G1 linear motion in XY)
+                                        (carving_slice{z=-6} )
+
+F200                                    (change tool speed)
+G1 Z-6                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X178.5 Y257                          (G1 linear motion in XY)
+                                        (carving_slice{z=-8} )
+
+F200                                    (change tool speed)
+G1 Z-8                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X161.5 Y257                          (G1 linear motion in XY)
+G0 Z5                                   (G0 rapid motion in Z)
+                                        (carving_path2d{tool_name=T1, x=161.5, y=258, thickness=7})
+G0 Z5                                   (G0 rapid motion in Z)
+G0 X161.5 Y258                          (G0 rapid motion in XY)
+G0 Z0.2                                 (G0 rapid motion in Z)
+                                        (carving_slice{z=-2} )
+
+F200                                    (change tool speed)
+G1 Z-2                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X178.5 Y258                          (G1 linear motion in XY)
+                                        (carving_slice{z=-4} )
+
+F200                                    (change tool speed)
+G1 Z-4                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X161.5 Y258                          (G1 linear motion in XY)
+                                        (carving_slice{z=-6} )
+
+F200                                    (change tool speed)
+G1 Z-6                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X178.5 Y258                          (G1 linear motion in XY)
+                                        (carving_slice{z=-7} )
+
+F200                                    (change tool speed)
+G1 Z-7                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X161.5 Y258                          (G1 linear motion in XY)
+G0 Z5                                   (G0 rapid motion in Z)
+                                        (carving_path2d{tool_name=T1, x=161.5, y=259, thickness=6})
+G0 Z5                                   (G0 rapid motion in Z)
+G0 X161.5 Y259                          (G0 rapid motion in XY)
+G0 Z0.2                                 (G0 rapid motion in Z)
+                                        (carving_slice{z=-2} )
+
+F200                                    (change tool speed)
+G1 Z-2                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X178.5 Y259                          (G1 linear motion in XY)
+                                        (carving_slice{z=-4} )
+
+F200                                    (change tool speed)
+G1 Z-4                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X161.5 Y259                          (G1 linear motion in XY)
+                                        (carving_slice{z=-6} )
+
+F200                                    (change tool speed)
+G1 Z-6                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X178.5 Y259                          (G1 linear motion in XY)
+G0 Z5                                   (G0 rapid motion in Z)
+                                        (carving_path2d{tool_name=T1, x=161.5, y=260, thickness=5})
+G0 Z5                                   (G0 rapid motion in Z)
+G0 X161.5 Y260                          (G0 rapid motion in XY)
+G0 Z0.2                                 (G0 rapid motion in Z)
+                                        (carving_slice{z=-2} )
+
+F200                                    (change tool speed)
+G1 Z-2                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X178.5 Y260                          (G1 linear motion in XY)
+                                        (carving_slice{z=-4} )
+
+F200                                    (change tool speed)
+G1 Z-4                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X161.5 Y260                          (G1 linear motion in XY)
+                                        (carving_slice{z=-5} )
+
+F200                                    (change tool speed)
+G1 Z-5                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X178.5 Y260                          (G1 linear motion in XY)
+G0 Z5                                   (G0 rapid motion in Z)
+                                        (carving_path2d{tool_name=T1, x=161.5, y=261, thickness=4})
+G0 Z5                                   (G0 rapid motion in Z)
+G0 X161.5 Y261                          (G0 rapid motion in XY)
+G0 Z0.2                                 (G0 rapid motion in Z)
+                                        (carving_slice{z=-2} )
+
+F200                                    (change tool speed)
+G1 Z-2                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X178.5 Y261                          (G1 linear motion in XY)
+                                        (carving_slice{z=-4} )
+
+F200                                    (change tool speed)
+G1 Z-4                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X161.5 Y261                          (G1 linear motion in XY)
+G0 Z5                                   (G0 rapid motion in Z)
+                                        (carving_path2d{tool_name=T1, x=161.5, y=262, thickness=3})
+G0 Z5                                   (G0 rapid motion in Z)
+G0 X161.5 Y262                          (G0 rapid motion in XY)
+G0 Z0.2                                 (G0 rapid motion in Z)
+                                        (carving_slice{z=-2} )
+
+F200                                    (change tool speed)
+G1 Z-2                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X178.5 Y262                          (G1 linear motion in XY)
+                                        (carving_slice{z=-3} )
+
+F200                                    (change tool speed)
+G1 Z-3                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X161.5 Y262                          (G1 linear motion in XY)
+G0 Z5                                   (G0 rapid motion in Z)
+                                        (carving_path2d{tool_name=T1, x=161.5, y=263, thickness=2})
+G0 Z5                                   (G0 rapid motion in Z)
+G0 X161.5 Y263                          (G0 rapid motion in XY)
+G0 Z0.2                                 (G0 rapid motion in Z)
+                                        (carving_slice{z=-2} )
+
+F200                                    (change tool speed)
+G1 Z-2                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X178.5 Y263                          (G1 linear motion in XY)
+G0 Z5                                   (G0 rapid motion in Z)
+                                        (carving_path2d{tool_name=T1, x=161.5, y=264, thickness=1})
+G0 Z5                                   (G0 rapid motion in Z)
+G0 X161.5 Y264                          (G0 rapid motion in XY)
+G0 Z0.2                                 (G0 rapid motion in Z)
+                                        (carving_slice{z=-1} )
+
+F200                                    (change tool speed)
+G1 Z-1                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X178.5 Y264                          (G1 linear motion in XY)
+G0 Z5                                   (G0 rapid motion in Z)
+                                        (carving_path2d{tool_name=T1, x=221.5, y=329, thickness=10})
+G0 Z5                                   (G0 rapid motion in Z)
+G0 X221.5 Y329                          (G0 rapid motion in XY)
+G0 Z0.2                                 (G0 rapid motion in Z)
+                                        (carving_slice{z=-2} )
+
+F200                                    (change tool speed)
+G1 Z-2                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X118.5 Y329                          (G1 linear motion in XY)
+G1 X118.5 Y251                          (G1 linear motion in XY)
+G1 X161.5 Y251                          (G1 linear motion in XY)
+G1 X161.5 Y255                          (G1 linear motion in XY)
+G1 X178.5 Y255                          (G1 linear motion in XY)
+G1 X178.5 Y251                          (G1 linear motion in XY)
+G1 X221.5 Y251                          (G1 linear motion in XY)
+G1 X221.5 Y329                          (G1 linear motion in XY)
+                                        (carving_slice{z=-4} )
+
+F200                                    (change tool speed)
+G1 Z-4                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X221.5 Y251                          (G1 linear motion in XY)
+G1 X178.5 Y251                          (G1 linear motion in XY)
+G1 X178.5 Y255                          (G1 linear motion in XY)
+G1 X161.5 Y255                          (G1 linear motion in XY)
+G1 X161.5 Y251                          (G1 linear motion in XY)
+G1 X118.5 Y251                          (G1 linear motion in XY)
+G1 X118.5 Y329                          (G1 linear motion in XY)
+G1 X221.5 Y329                          (G1 linear motion in XY)
+                                        (carving_slice{z=-6} )
+
+F200                                    (change tool speed)
+G1 Z-6                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X118.5 Y329                          (G1 linear motion in XY)
+G1 X118.5 Y251                          (G1 linear motion in XY)
+G1 X161.5 Y251                          (G1 linear motion in XY)
+G1 X161.5 Y255                          (G1 linear motion in XY)
+G1 X178.5 Y255                          (G1 linear motion in XY)
+G1 X178.5 Y251                          (G1 linear motion in XY)
+G1 X221.5 Y251                          (G1 linear motion in XY)
+G1 X221.5 Y329                          (G1 linear motion in XY)
+                                        (carving_slice{z=-8} )
+
+F200                                    (change tool speed)
+G1 Z-8                                  (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X221.5 Y251                          (G1 linear motion in XY)
+G1 X178.5 Y251                          (G1 linear motion in XY)
+G1 X178.5 Y255                          (G1 linear motion in XY)
+G1 X161.5 Y255                          (G1 linear motion in XY)
+G1 X161.5 Y251                          (G1 linear motion in XY)
+G1 X118.5 Y251                          (G1 linear motion in XY)
+G1 X118.5 Y329                          (G1 linear motion in XY)
+G1 X221.5 Y329                          (G1 linear motion in XY)
+                                        (carving_slice{z=-10} )
+
+F200                                    (change tool speed)
+G1 Z-10                                 (G1 linear Z motion)
+
+F400                                    (change tool speed)
+G1 X118.5 Y329                          (G1 linear motion in XY)
+G1 X118.5 Y251                          (G1 linear motion in XY)
+G1 X161.5 Y251                          (G1 linear motion in XY)
+G1 X161.5 Y255                          (G1 linear motion in XY)
+G1 X178.5 Y255                          (G1 linear motion in XY)
+G1 X178.5 Y251                          (G1 linear motion in XY)
+G1 X221.5 Y251                          (G1 linear motion in XY)
+G1 X221.5 Y329                          (G1 linear motion in XY)
+G0 Z5                                   (G0 rapid motion in Z)
+G49                                     (G49 turn tool length compensation off)
+G0 Z5                                   (G0 rapid motion in Z)
+M2                                      (M2 end program)
