@@ -13,8 +13,8 @@ Generated from beach-hut.scad:
 ![](beach-hut_openscad3.png)
 ![](beach-hut_linuxcnc.png)
 ![](beach-hut_cnc.png)
-![](beach-hut_result1.png)
-![](beach-hut_result2.png)
+![](beach-hut_result1.jpg)
+![](beach-hut_result2.jpg)
 
 ## Playing area image
 
