@@ -1,4 +1,4 @@
-# Eurobot 2016  - Coupe de frane de robotique 2016 
+# Eurobot 2016  - Coupe de France de robotique 2016 
 
 The BeachBots http://www.planete-sciences.org/robot/index.php?section=pages&pageid=133 :
 * Réglement Français: http://www.planete-sciences.org/robot/data/file/coupe/2016/C2016_Rules_FR.pdf
