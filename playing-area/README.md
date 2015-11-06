@@ -3,7 +3,7 @@
 
 ## OpenSCAD files
 
-The following OpenSCAD files Requires the following OpenSCAD extension: https://github.com/peberhard/openscad/tree/carving-plugin
+The following OpenSCAD files Requires the following OpenSCAD extension: https://github.com/peberhard/openscad-carving-plugin-doc-examples
 
 ### Beach Hut / Cabane de plage
 
