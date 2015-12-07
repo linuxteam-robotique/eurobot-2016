@@ -1,46 +1,27 @@
-// Simple example
 
-$fn = 12;
-t1r = 1.5; // radius of the tool T1 in mm
-mt = 3;    // material thickness in mm
+include <hub_pololu_6mm.scad>
+encoder_wheel_r = 23;
+encoder_wheel_torus_d = 3.6;
+encoder_wheel_inside_r = encoder_wheel_r - encoder_wheel_torus_d + 1.5; // estimation not right
+encoder_wheel_w = 4.5;
 
-// Definition of the tools
-carving_settings(tool_change_height=35);
-carving_tool(tool_number=1, name="T1" , diameter=t1r*2);
-carving_tool(tool_number=2, name="T2" , diameter=2.5);
-carving_tool_speed(tool="T1", material="alu", spindle_speed=7000, feedrate=150, step_down=mt);
-carving_tool_speed(tool="T2", material="alu", spindle_speed=7000, feedrate=150, step_down=mt);
-
-encoder_wheel_d = 50;
-part1_length = 50;
-part1_width = 30;
-
-// Definition of part1
-module part1() {
-    l = part1_length / 2;
-    w = part1_width / 2;
-
-    for( i = [10:10:50]) 
-        carving_drill("T2", [i, w]);
-    
-    translate([l, w]) {
-        carving_path2d("T1",[l, w], id="part1") {
-            carving_arc([ l, -w], [l*3/4, 0]);
-            carving_line([-l, -w]);
-            carving_line([-l,  w]);
-            carving_line([ l,  w]);
+module encoder_wheel() {
+    translate([4.5/2,0,0]) rotate([0,90,0])
+    union() {
+        translate([0,0,-4.5/2]) difference() {
+            cylinder(r=encoder_wheel_inside_r, h=4.5);
+            for( i = [30:60:330]) 
+                translate([cos(i)*hub_pololu_6mm_holes_r, sin(i)*hub_pololu_6mm_holes_r, -0.1])
+                    cylinder(d=3, h=4.5+0.2);
+            translate([0,0,-0.1]) cylinder(r=hub_pololu_6mm_small_axe_r,h=4.5+0.2); 
         }
+        rotate_extrude(convexity = 10)
+            translate([encoder_wheel_inside_r, 0, 0])
+                circle(d=encoder_wheel_torus_d); 
     }
 }
 
-// Render milling path with View -> Carving -> Render Milling Path, F5
-// Render carving result with View -> Carving -> Render Carving Result, F5
-carving_workpiece([100, 50], "alu", thickness=mt) {
-    translate([10,10]) part1();
-}
-
-// Render milling path with View -> Carving -> Render Milling Path, F5
-// Render carving result with View -> Carving -> Render Carving Result, F5
-carving_assembly() {
-    carving_part("part1");
-}
+/*
+translate([0+hub_pololu_6mm_small_axe_h,0,0]) mirror(1,0,0) hub_pololu_6mm();
+encoder_wheel();
+//*/
