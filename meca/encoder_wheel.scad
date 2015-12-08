@@ -1,8 +1,9 @@
 
 include <hub_pololu_6mm.scad>
-encoder_wheel_r = 23;
+encoder_wheel_r = 23; // 46
 encoder_wheel_torus_d = 3.6;
-encoder_wheel_inside_r = encoder_wheel_r - encoder_wheel_torus_d + 1.5; // estimation not right
+encoder_wheel_inside_r = encoder_wheel_r - encoder_wheel_torus_d + 1.6; // estimation = 21mm
+echo("encoder_wheel_inside_r", encoder_wheel_inside_r);
 encoder_wheel_w = 4.5;
 
 module encoder_wheel() {

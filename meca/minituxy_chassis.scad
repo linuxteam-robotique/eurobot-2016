@@ -1,4 +1,4 @@
-include <hinge_40mm.scad>
+    include <hinge_40mm.scad>
 include <encoder_omron_e6b2_cwz6c_2000.scad>
 include <encoder_wheel.scad>
 include <motor_pololu_37d_19_1_encoder.scad>
@@ -11,7 +11,7 @@ motor_wheel_r = 72/2;
 motor_wheel_w = 10;
 
 axe_padding = 1.5;
-chassis_encoder_dy = 47;
+chassis_encoder_dy = 44;
 chassis_motor_wheel_center_dx = 83;
 chassis_motor_dx = chassis_motor_wheel_center_dx-axe_padding-motor_wheel_w/2;
 
@@ -75,8 +75,10 @@ module encoder_right() {
     translate([chassis_hinge_dx,-chassis_encoder_dy,hinge_z]) rotate([0,0,90]) hinge_40mm();
     translate([chassis_encoder_dx, -chassis_encoder_dy, encoder_wheel_r]) {
 %        encoder_omron_e6b2_cwz6c_2000();
-#        translate([axe_padding,0,0]) encoder_wheel();
-        translate([axe_padding+encoder_wheel_w-hub_pololu_6mm_small_axe_h,0,0]) hub_pololu_6mm();
+//#        translate([axe_padding,0,0]) encoder_wheel();
+//        translate([axe_padding+encoder_wheel_w-hub_pololu_6mm_small_axe_h,0,0]) hub_pololu_6mm();
+        translate([axe_padding,0,0]) hub_pololu_6mm();
+#        translate([axe_padding+hub_pololu_6mm_big_axe_h-1.5*2,0,0]) encoder_wheel();
     }
 }
 
@@ -127,7 +129,7 @@ module minituxy_chassis() {
     encoder_left();
     encoder_right();
     ball_caster();
-%    casing();
+//%    casing();
     
     debug();
 }
